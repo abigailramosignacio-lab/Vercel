@@ -21,7 +21,6 @@ function initTheme() {
 }
 initTheme();
 
-/* Hook theme buttons */
 document
   .querySelectorAll("#themeToggle, #themeToggle2, #themeToggle3")
   .forEach((btn) => {
@@ -81,7 +80,6 @@ if (form) {
       status.style.color = "#d66";
       return;
     }
-    // Simular envío
     status.textContent = "Enviando mensaje...";
     status.style.color = "#64707a";
     setTimeout(() => {
