@@ -84,7 +84,7 @@ if (form) {
     status.style.color = "#64707a";
     setTimeout(() => {
       status.textContent =
-        "Mensaje enviado. ¡Gracias! Te respondemos en 48 horas.";
+        "Mensaje enviado. ¡Gracias! Te respondemos enseguida.";
       status.style.color = "#2f8a57";
       form.reset();
     }, 900);
