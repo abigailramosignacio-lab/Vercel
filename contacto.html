@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contacto — VerdeCorp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">🌿</span> VerdeCorp</a
+        >
+        <nav class="nav" aria-label="Principal">
+          <a href="index.html" class="nav-link">Inicio</a>
+          <a href="servicios.html" class="nav-link">Servicios</a>
+          <a href="contact.html" class="nav-link active">Contacto</a>
+        </nav>
+        <div class="header-actions">
+          <button id="themeToggle3" class="icon-btn">🌗</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container section-pad">
+        <h1 class="section-title">Hablemos</h1>
+        <p class="lead muted">
+          Completa el formulario y te responderemos en
+          <strong> enseguida </strong>.
+        </p>
+
+        <form id="contactForm" class="contact-form glass">
+          <div class="row">
+            <label>
+              Nombre
+              <input type="text" name="name" required />
+            </label>
+
+            <label>
+              Correo
+              <input type="email" name="email" required />
+            </label>
+          </div>
+
+          <label>
+            Mensaje
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Enviar mensaje</button>
+            <button type="button" id="clearBtn" class="btn outline">
+              Limpiar
+            </button>
+          </div>
+
+          <p id="formStatus" class="muted" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>VerdeCorp</strong>
+          <p class="muted">2025</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a>
+        </nav>
+        <div class="social muted">✉️ hola@verdecorp.example</div>
+      </div>
+    </footer>
+
+    <button id="btnTop3" class="btn-top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
